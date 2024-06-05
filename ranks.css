@@ -3,9 +3,25 @@
   animation: o-g 10s linear infinite;
 
 }
+.talentRainbow{
+	font-style: normal; 
+	animation: rainbow 7s linear infinite; 
 
+}
 @keyframes o-g{
+  0% 
   0%, 50%, 100% {color: orange}
 	25%, 75% {color: green}
 
+}
+
+@keyframes rainbow {
+  0% { background-color: hsl(0, 100%, 50%); }
+  14.28% { background-color: hsl(30, 100%, 50%); }
+  28.57% { background-color: hsl(60, 100%, 50%); }
+  42.85% { background-color: hsl(120, 100%, 50%); }
+  57.14% { background-color: hsl(240, 100%, 50%); }
+  71.42% { background-color: hsl(270, 100%, 50%); }
+  85.71% { background-color: hsl(300, 100%, 50%); }
+  100% { background-color: hsl(0, 100%, 50%); }
 }
